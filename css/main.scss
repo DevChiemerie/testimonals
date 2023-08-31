@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500&display=swap');
 
 *{
@@ -10,17 +11,11 @@ body{
     background: hsl(0, 0%, 81%);
 }
 
-.main{
-    height: 100%;
-    width: 100%;
-    // margin-bottom: 10%;
-    
-    // margin: 10%; 
-    // display: flex;
-    // place-content: space-between;
-    // align-items: center;
+.first{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
 }
-
 span{
     opacity: 50%;
     color: hsl(0, 0%, 81%);
@@ -33,24 +28,25 @@ span{
     text-align: center;
     padding: .6rem;
     width: 40%;
-    margin-right: 20%;
-    margin-left: 10%;
+    // margin-right: 20%;
+    margin-left: 80px;
     border-radius: .5rem;
     text-align: left;
-    margin-top: 5rem;
+    // margin-top: 5rem;
     
 
-    img{
+    .img-daniel{
         height: 2rem;
         border: solid hsl(0, 0%, 81%);
         border-radius: 100%;
-        margin-left: 1%
+        margin-left: 1%;
+        margin-bottom: -45px;
         
     }
 
     .daniel-text{
         margin-bottom: 5%;
-        margin-top: -7%;
+        margin-top: -5%;
         margin-left: 10%;
         color:  hsl(0, 0%, 81%);
         font-size: 1.2rem;
@@ -72,12 +68,12 @@ span{
     font-family: 'Barlow Semi Condensed', sans-serif;
     text-align: center;
     padding: 2rem;
-    width: 20%;
-    margin-right: 10%;
-    margin-left: 52%;
+    width: 20rem;
+    margin-right: 435px;
+    // margin-left: 52%;
     border-radius: .5rem;
     text-align: left;
-    margin-top: -17%;
+    // margin-top: -17%;
 
 
     img{
@@ -88,7 +84,7 @@ span{
 
     .jonathan-text {
         margin-bottom: 5%;
-        margin-top: -20%;
+        margin-top: -15%;
         margin-left: 25%;
         font-size: 1.2rem;
         color: hsl(0, 0%, 81%);
@@ -104,6 +100,12 @@ span{
     
 }
 
+.second{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+}
+
 
 
 .jeanette{
@@ -111,12 +113,12 @@ span{
     font-family: 'Barlow Semi Condensed', sans-serif;
     text-align: center;
     padding: 1.5rem;
-    width: 20%;
-    margin-right: 20%;
-    margin-left: 10%;
+    width: 20rem;
+    // margin-right: 450px;
+    margin-left: 80px;
     border-radius: .5rem;
     text-align: left;
-    margin-top: 1%;
+    // margin-top: 1%;
     
     
 
@@ -124,12 +126,13 @@ span{
         height: 2rem;
         border: solid hsl(0, 0%, 81%);
         border-radius: 100%;
-        margin-left: 0%
+        margin-left: 0%;
+        // margin-bottom: -5%;
         
     }
 
     .jeanette-text{
-        margin-bottom: 5%;
+        // margin-bottom: -5%;
         margin-top: -18%;
         margin-left: 25%;
         color:  hsl(217, 19%, 35%);
@@ -159,11 +162,11 @@ span{
     text-align: center;
     padding: 1.1rem;
     width: 40%;
-    margin-right: 20%;
-    margin-left: 32%;
+    margin-right: 435px;
+    // margin-left: 15%;
     border-radius: .5rem;
     text-align: left;
-    margin-top: -16.5%;
+    // margin-top: -16.5%;
   
 
     img{
@@ -198,13 +201,14 @@ span{
     background:  hsl(0, 0%, 100%);
     font-family: 'Barlow Semi Condensed', sans-serif;
     text-align: center;
-    padding: 1.4rem;
+    padding: 1.7rem;
     width: 20%;
     margin-right: 0%;
-    margin-left: 74%;
+    margin-left: 75%;
     border-radius: .5rem;
     text-align: left;
-    margin-top: -34.5%;
+    // margin-top: -36.8%;
+    margin-top: -555px;
     
     
 
@@ -243,8 +247,8 @@ span{
 
 .pattern-quotation{
     opacity: 35%;
-    margin-left: 40%;
-    // margin-top: 10%;
-    margin-bottom: -12.5%;
+    margin-left: 450px;
+    margin-bottom: -13%;
     
 }
+

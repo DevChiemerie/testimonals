@@ -9,9 +9,10 @@ body {
   background: hsl(0, 0%, 81%);
 }
 
-.main {
-  height: 100%;
-  width: 100%;
+.first {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 70px;
 }
 
 span {
@@ -26,21 +27,20 @@ span {
   text-align: center;
   padding: 0.6rem;
   width: 40%;
-  margin-right: 20%;
-  margin-left: 10%;
+  margin-left: 80px;
   border-radius: 0.5rem;
   text-align: left;
-  margin-top: 5rem;
 }
-.daniel img {
+.daniel .img-daniel {
   height: 2rem;
   border: solid hsl(0, 0%, 81%);
   border-radius: 100%;
   margin-left: 1%;
+  margin-bottom: -45px;
 }
 .daniel .daniel-text {
   margin-bottom: 5%;
-  margin-top: -7%;
+  margin-top: -5%;
   margin-left: 10%;
   color: hsl(0, 0%, 81%);
   font-size: 1.2rem;
@@ -56,12 +56,10 @@ span {
   font-family: "Barlow Semi Condensed", sans-serif;
   text-align: center;
   padding: 2rem;
-  width: 20%;
-  margin-right: 10%;
-  margin-left: 52%;
+  width: 20rem;
+  margin-right: 435px;
   border-radius: 0.5rem;
   text-align: left;
-  margin-top: -17%;
 }
 .jonathan img {
   height: 2rem;
@@ -70,7 +68,7 @@ span {
 }
 .jonathan .jonathan-text {
   margin-bottom: 5%;
-  margin-top: -20%;
+  margin-top: -15%;
   margin-left: 25%;
   font-size: 1.2rem;
   color: hsl(0, 0%, 81%);
@@ -81,17 +79,21 @@ span {
   font-size: 1.2rem;
 }
 
+.second {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+}
+
 .jeanette {
   background: hsl(0, 0%, 100%);
   font-family: "Barlow Semi Condensed", sans-serif;
   text-align: center;
   padding: 1.5rem;
-  width: 20%;
-  margin-right: 20%;
-  margin-left: 10%;
+  width: 20rem;
+  margin-left: 80px;
   border-radius: 0.5rem;
   text-align: left;
-  margin-top: 1%;
 }
 .jeanette img {
   height: 2rem;
@@ -100,7 +102,6 @@ span {
   margin-left: 0%;
 }
 .jeanette .jeanette-text {
-  margin-bottom: 5%;
   margin-top: -18%;
   margin-left: 25%;
   color: hsl(217, 19%, 35%);
@@ -125,11 +126,9 @@ span {
   text-align: center;
   padding: 1.1rem;
   width: 40%;
-  margin-right: 20%;
-  margin-left: 32%;
+  margin-right: 435px;
   border-radius: 0.5rem;
   text-align: left;
-  margin-top: -16.5%;
 }
 .patrick img {
   height: 2rem;
@@ -154,13 +153,13 @@ span {
   background: hsl(0, 0%, 100%);
   font-family: "Barlow Semi Condensed", sans-serif;
   text-align: center;
-  padding: 1.4rem;
+  padding: 1.7rem;
   width: 20%;
   margin-right: 0%;
-  margin-left: 74%;
+  margin-left: 75%;
   border-radius: 0.5rem;
   text-align: left;
-  margin-top: -34.5%;
+  margin-top: -555px;
 }
 .kira img {
   height: 2rem;
@@ -190,6 +189,6 @@ span {
 
 .pattern-quotation {
   opacity: 35%;
-  margin-left: 40%;
-  margin-bottom: -12.5%;
+  margin-left: 450px;
+  margin-bottom: -13%;
 }/*# sourceMappingURL=main.css.map */
